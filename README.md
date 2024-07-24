@@ -7,4 +7,4 @@ if u select the expenses then amount will be reduced
 u can delete using delete button
 ![Screenshot 2024-07-24 165234](https://github.com/user-attachments/assets/836e85d9-cf17-4f62-aee4-e2be9b7b7338)
 
-we are uding express , mongodb to store the data
+we are using express , mongodb to store the data
