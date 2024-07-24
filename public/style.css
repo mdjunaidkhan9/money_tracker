@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(to right, grey 60%, black);
+    font-family: sans-serif, roboto;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    animation: animate 2s ease-in;
+}
+
+.input-section {
+
+    margin-top: 50px;
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+input,
+select,
+button {
+    height: 20px;
+    font-weight: bold;
+    background-color: grey;
+    color: black;
+    height: 30px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 3px 5px black;
+}
+
+#add_btn {
+    background-color: black;
+    color: grey;
+    height: 30;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+
+#add_btn:hover {
+    box-shadow: 0px 0px 7px grey;
+}
+
+h1 {
+    margin-top: 20px;
+    padding: 25px;
+    border-bottom: 08px dashed black;
+}
+
+@keyframes animate {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+h2 {
+    margin-top: 50px;
+}
+
+table {
+    margin-top: 20px;
+}
+
+th,
+td {
+    height: 50px;
+    width: 500px;
+    border: 1px solid grey;
+    background-color: black;
+    color: grey;
+    text-align: start;
+}
+
+#delete_btn {
+    background-color: red;
+    color: black;
+    height: 30;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 3px 5px grey;
+}
+
+#expense_table_body {
+    color: red;
+}
